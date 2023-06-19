@@ -119,7 +119,7 @@ if __name__ == "__main__":
     import sys
 
     if len(sys.argv) != 2:
-        print("Правильно использовать: python sort.py <folder_path>")
+        print("Правильно использовать: python clean.py <folder_path>")
     else:
         folder_path = sys.argv[1]
         process_folder(folder_path)

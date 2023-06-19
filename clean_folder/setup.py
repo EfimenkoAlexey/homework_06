@@ -1,16 +1,12 @@
-from setuptools import setup, find_packages
+from setuptools import setup, find_namespace_packages
 
 setup(
     name='clean_folder',
     version='1.0.0',
-    packages=find_packages(),
+    description='Code small program',
     url='https://github.com/EfimenkoAlexey/homework_06/tree/main/clean_folder',
     author='Alexey Efimenko',
-    entry_points={
-        'console_scripts': [
-            'clean-folder = clean_folder.script:main'
-        ]
-    },
-    install_requires=["shutil", "os", "sys"
-    ],
+    packages=find_namespace_packages(),
+    install_requires=["sys", "os", "shutil"],
+    entry_points={'console_scripts': ['clean_folder = clean_folder.clean_folder:main']}
 )

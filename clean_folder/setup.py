@@ -4,7 +4,7 @@ setup(
     name='clean_folder',
     version='1.0.0',
     packages=find_packages(),
-    url='http://github.com/dummy_user/useful',
+    url='https://github.com/EfimenkoAlexey/homework_06/tree/main/clean_folder',
     author='Alexey Efimenko',
     entry_points={
         'console_scripts': [

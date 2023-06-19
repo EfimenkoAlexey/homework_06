@@ -5,5 +5,4 @@ clean_folder.egg-info/PKG-INFO
 clean_folder.egg-info/SOURCES.txt
 clean_folder.egg-info/dependency_links.txt
 clean_folder.egg-info/entry_points.txt
-clean_folder.egg-info/requires.txt
 clean_folder.egg-info/top_level.txt

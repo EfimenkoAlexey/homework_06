@@ -8,6 +8,5 @@ setup(
     url='https://github.com/EfimenkoAlexey/homework_06/tree/main/clean_folder',
     author='Alexey Efimenko',
     packages=find_packages(),
-    install_requires=["sys", "os", "shutil"],
     entry_points={'console_scripts': ['clean-folder = clean_folder.clean:main']}
 )
